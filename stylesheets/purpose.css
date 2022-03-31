@@ -50,7 +50,6 @@ display :none;
 #img1 {
   display: run-in;
 }
-
 #img2 {
   display: none;
 }
@@ -271,9 +270,9 @@ display :none;
   grid-row: 10/34;
   background: url('../img/anim_plush.png');
   background-size: 2119%;
-  animation: run 2.8s steps(1) infinite;
+  animation: pepsi 2.8s steps(1) infinite;
 }
-@keyframes run {
+@keyframes pepsi {
   0%{ background-position: 0px top;}
   5%{ background-position: -163px top;}
   10%{ background-position: -326px top;}
@@ -302,10 +301,10 @@ display :none;
   grid-row: 51/77;
   background: url('../img/anim_plush_big.png');
   background-repeat: no-repeat;
-  animation: puck 2.8s steps(1) infinite;
+  animation: fanta 2.8s steps(1) infinite;
   background-size: 70%;
 }
-@keyframes puck {
+@keyframes fanta {
   0%{ background-position: 0px top;}
   5%{ background-position: -377px top;}
   10%{ background-position: -754px top;}
@@ -385,3 +384,8 @@ display :none;
 }
 @keyframes moveX_5 {from {left: 20%;} to {left: 20%;}}
 @keyframes moveY_5 {from {top: 0;} to {top: 65%;}}
+
+.box4_8{
+  grid-column: 28/30;
+  grid-row: 69/74;
+}
