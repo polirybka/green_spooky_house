@@ -353,11 +353,11 @@ background-size: cover;
   grid-column: 38/44;
   grid-row: 40/46;
 }
-.kart2{
+.kart10{
   grid-column: 38/44;
   grid-row: 46/52;
 }
-.kart3{
+.kart9{
   grid-column: 38/44;
   grid-row: 52/58;
 }
@@ -365,11 +365,11 @@ background-size: cover;
   grid-column: 38/44;
   grid-row: 58/64;
 }
-.kart5{
+.kart3{
   grid-column: 32/38;
   grid-row: 46/52;
 }
-.kart6{
+.kart8{
   grid-column: 32/38;
   grid-row: 52/58;
 }
@@ -377,15 +377,15 @@ background-size: cover;
   grid-column: 32/38;
   grid-row: 58/64;
 }
-.kart8{
+.kart6{
   grid-column: 26/32;
   grid-row: 52/58;
 }
-.kart9{
+.kart5{
   grid-column: 26/32;
   grid-row: 58/64;
 }
-.kart10{
+.kart2{
   grid-column: 20/26;
   grid-row: 58/64;
 }
