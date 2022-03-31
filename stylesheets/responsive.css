@@ -12,8 +12,47 @@
   .wrapper{
     display: grid;
     grid-template-columns:repeat(60, 1fr);
-    grid-auto-rows:minmax(24px, auto);
+    grid-auto-rows:minmax(auto, 12px);
     grid-auto-columns:minmax(24px, auto);
+  }
+  .button{
+    top:none;
+  }
+  .box1_1{
+    font-family: 'Wermut';
+    font-size: 13px;
+    grid-column:11/30;
+    grid-row:3/4;
+    vertical-align: middle;
+    position: relative;
+    top:-5%;
+  }
+  .box3_23{
+    font-family: 'Wermut';
+    font-size: 13px;
+    grid-column:11/20;
+    grid-row:36/37;
+    vertical-align: middle;
+    position: relative;
+
+  }
+  .box3_16{
+    font-family: 'Wermut';
+    font-size: 13px;
+    grid-column:11/30;
+    grid-row:81/82;
+    vertical-align: middle;
+    position: relative;
+     top: 20%;
+  }
+  .box3_24{
+    font-family: 'Wermut';
+    font-size: 13px;
+    grid-column:11/33;
+    grid-row:41/45;
+    vertical-align: middle;
+    position: relative;
+
   }
 }
 @media only screen and  (min-device-width: 768px) and (max-device-width: 1024px){
@@ -29,8 +68,52 @@
    .wrapper{
     display: grid;
     grid-template-columns:repeat(60, 1fr);
-    grid-auto-rows:minmax(24px, auto);
+    grid-auto-rows:minmax(16px, auto);
     grid-auto-columns:minmax(24px, auto);
+  }
+  .box1_1{
+    font-family: 'Wermut';
+    font-size: 13px;
+    grid-column:11/30;
+    grid-row:3/4;
+    vertical-align: middle;
+    position: relative;
+    top:10%;
+  }
+
+  .box3_16{
+    font-family: 'Wermut';
+    font-size: 13px;
+    grid-column:11/30;
+    grid-row:81/82;
+    vertical-align: middle;
+    position: relative;
+     top: 20%;
+  }
+  .box3_23{
+    font-family: 'Wermut';
+    font-size: 13px;
+    grid-column:11/20;
+    grid-row:36/37;
+    vertical-align: middle;
+    position: relative;
+  }
+  .box3_24{
+    font-family: 'Wermut';
+    font-size: 13px;
+    grid-column:11/33;
+    grid-row:41/45;
+    vertical-align: middle;
+    position: relative;
+  }
+  .box3_16{
+    font-family: 'Wermut';
+    font-size: 17px;
+    grid-column:11/30;
+    grid-row:81/82;
+    vertical-align: middle;
+    position: relative;
+     top:-15%;
   }
 }
 @media only screen and  (min-device-width: 1024px) and (max-device-width: 1367px){
@@ -46,8 +129,24 @@
   .wrapper{
     display: grid;
     grid-template-columns:repeat(60, 1fr);
-    grid-auto-rows:minmax(24px, auto);
+    grid-auto-rows:minmax(16px, auto);
     grid-auto-columns:minmax(24px, auto);
+  }
+  .box3_23{
+    font-family: 'Wermut';
+    font-size: 17px;
+    grid-column:11/20;
+    grid-row:36/37;
+    vertical-align: middle;
+    position: relative;
+  }
+  .box3_24{
+    font-family: 'Wermut';
+    font-size: 17px;
+    grid-column:11/33;
+    grid-row:41/45;
+    vertical-align: middle;
+    position: relative;
   }
 }
 @media only screen and  (min-device-width: 1367px) and (max-device-width: 1440px){

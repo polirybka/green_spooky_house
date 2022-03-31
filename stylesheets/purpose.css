@@ -9,7 +9,7 @@ text-align: center;
 }
 .button{
 text-decoration: none;
-text-decoration-color: black;
+color:black;
 font-family: 'Wermut';
 font-size: 17px;
 top:20%;
