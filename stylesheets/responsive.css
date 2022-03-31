@@ -126,7 +126,5 @@
     grid-auto-rows:minmax(24px, auto);
     grid-auto-columns:minmax(24px, auto);
   }
-  .box4_5{
-    background-size: 70%;
-  }
+  
 }

@@ -338,22 +338,7 @@ background-size: cover;
     height: y;
 }
 
-.box4_4{
-  /* justify-self:end; */
-grid-column: 54/59;
-grid-row: 25/30;
 
-}
-.box5_1{
-  /* justify-self:end; */
-grid-column: 32/38;
-grid-row: 45/51;
-}
-.box5_2{
-  /* justify-self:end; */
-grid-column: 38/44;
-grid-row: 45/51;
-}
 
 .kart1{
   grid-column: 38/44;

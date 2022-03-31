@@ -17,12 +17,12 @@ top:20%;
 /* Вылетает менюшка */
 #myModal {
 width: 100%;
- height: 218px;
+
 border: 2px solid #333;
 background-color: white;
 position: relative;
 grid-column: 9/12;
-grid-row: 16/27;
+grid-row: 14/26;
 display: none;
 opacity: 0;
 z-index: 38;
@@ -266,7 +266,7 @@ display :none;
   background-color: #5CA191;
   animation: cola 15s 1s infinite linear;
 }
-.box4_5{
+.box5_1{
   grid-column: 1/8;
   grid-row: 10/34;
   background: url('../img/anim_plush.png');
@@ -297,7 +297,7 @@ display :none;
   100%{ background-position: -3423px top;}
 
 }
-.box4_6{
+.box5_2{
   grid-column: 45/61;
   grid-row: 51/77;
   background: url('../img/anim_plush_big.png');
@@ -330,13 +330,58 @@ display :none;
 
 }
 .box4_3 {
-  grid-column: 45/60;
+  grid-column: 45/61;
   grid-row: 10/51;
+  overflow: hidden;
 }
 .inside4_3{
+  width:70%;
+  position: relative;
+  animation: moveX_1 8s linear 0s infinite alternate, moveY_1 8.5s linear 0s infinite alternate;
+}
+@keyframes moveX_1 {from {left: 0;} to {left: 30%;}}
+@keyframes moveY_1 {from {top: 0;} to {top: 65%;}}
+.box4_4 {
+  grid-column: 45/61;
+  grid-row: 10/51;
+}
+.inside4_4{
+  width:30%;
+  position: relative;
+  animation: moveX_2 2s linear 0s infinite alternate, moveY_2 2.5s linear 0s infinite alternate;
+}
+@keyframes moveX_2 {from {left: 0;} to {left: 50%;}}
+@keyframes moveY_2 {from {top: 0;} to {top: 50%;}}
+.box4_5{
+  grid-column: 45/61;
+  grid-row: 10/51;
+}
+.inside4_5{
   width:50%;
   position: relative;
-  animation: moveX 3s linear 0s infinite alternate, moveY 3.5s linear 0s infinite alternate;
+  animation: moveX_3 4s linear 0s infinite alternate, moveY_3 4.5s linear 0s infinite alternate;
 }
-@keyframes moveX {from {left: 0;} to {left: 50%;}}
-@keyframes moveY {from {top: 0;} to {top: 50%;}}
+@keyframes moveX_3 {from {left: 0;} to {left: 30%;}}
+@keyframes moveY_3 {from {top: 0;} to {top: 70%;}}
+.box4_6{
+  grid-column: 45/61;
+  grid-row: 10/51;
+}
+.inside4_6{
+  width:50%;
+  position: relative;
+  animation: moveX_4 6s linear 0s infinite alternate, moveY_4 6.5s linear 0s infinite alternate;
+}
+@keyframes moveX_4 {from {left: 0;} to {left: 30%;}}
+@keyframes moveY_4 {from {top: 0;} to {top: 70%;}}
+.box4_7{
+  grid-column: 45/61;
+  grid-row: 10/51;
+}
+.inside4_7{
+  width:40%;
+  position: relative;
+  animation: moveX_5 7s linear 0s infinite alternate, moveY_5 7.5s linear 0s infinite alternate;
+}
+@keyframes moveX_5 {from {left: 20%;} to {left: 20%;}}
+@keyframes moveY_5 {from {top: 0;} to {top: 65%;}}
