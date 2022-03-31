@@ -29,6 +29,7 @@
   grid-row:8/28;
   border-right:2px solid #333;
   border-left:2px solid #333;
+  z-index: 4;
 }
 .box1_5{
   grid-column:1/19;
@@ -435,7 +436,19 @@
   grid-row: 43/47;
   display:run-in;
 }
-.box1_6,.box1_13,.box1_14,.box2_2,.box2_14,
+.box6_3{
+  grid-column: 1/7;
+  grid-row: 8/28;
+  z-index: 3;
+}
+.box6_4{
+  grid-column: 1/19;
+  grid-row: 82/95;
+}
+.grow{
+  width:100%;
+}
+.box6_2,.box6_1,.box1_6,.box1_13,.box1_14,.box2_2,.box2_14,
 .box3_8,.box3_9,.box3_10,
 .box3_11,.box3_12,.box3_13,.box3_14,.box3_15,.box3_17,.box3_18,
 .box4_1,.box4_3,.box4_4,.box4_5,
