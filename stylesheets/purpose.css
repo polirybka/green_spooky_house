@@ -388,4 +388,79 @@ display :none;
 .box4_8{
   grid-column: 28/30;
   grid-row: 69/74;
+  opacity: 0;
+  cursor: url('../img/leaf.png'), pointer;
+}
+.box4_8:hover{
+  opacity:100%;
+  transition: 1s;
+}
+.box4_8:not(:hover){
+  transition: 10s;
+}
+.box4_9{
+  grid-column: 16/18;
+  grid-row: 69/74;
+  opacity: 0;
+  cursor: url('../img/leaf.png'), pointer;
+  transition: 1s;
+}
+.box4_9:hover{
+  opacity:100%;
+}
+.box4_9:not(:hover){
+  transition: 10s;
+}
+.box4_10{
+  grid-column: 40/42;
+  grid-row: 69/74;
+  opacity: 0;
+  cursor: url('../img/leaf.png'), pointer;
+  transition: 1s;
+}
+.box4_10:hover{
+  opacity:100%;
+}
+.box4_10:not(:hover){
+  transition: 10s;
+}
+
+.box4_11{
+  grid-column: 9/13;
+  grid-row: 65/77;
+  opacity: 0;
+  cursor: url('../img/leaf.png'), pointer;
+  transition: 1s;
+}
+.box4_11:hover{
+  opacity:100%;
+}
+.box4_11:not(:hover){
+  transition: 10s;
+}
+.box4_12{
+  grid-column: 21/25;
+  grid-row: 65/77;
+  opacity: 0;
+  cursor: url('../img/leaf.png'), pointer;
+  transition: 1s;
+}
+.box4_12:hover{
+  opacity:100%;
+}
+.box4_12:not(:hover){
+  transition: 10s;
+}
+.box4_13{
+  grid-column: 33/37;
+  grid-row: 65/77;
+  opacity: 0;
+  cursor: url('../img/leaf.png'), pointer;
+  transition: 1s;
+}
+.box4_13:hover{
+  opacity:100%;
+}
+.box4_13:not(:hover){
+  transition: 10s;
 }

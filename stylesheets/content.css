@@ -271,10 +271,9 @@ grid-row: 77/85;
 border-top: 2px solid #333;
 }
 .box3_15{
-  /* justify-self:end; */
-grid-column: 14/40;
-grid-row: 33/63;
-z-index: 1;
+  grid-column: 13;
+  grid-row: 64/77;
+  border-right: 2px solid #333;
 }
 .box3_16{
   font-family: 'Wermut';
@@ -385,7 +384,7 @@ background-size: cover;
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .5s;
-
+  cursor: pointer;
   background-size: cover;
 }
 
@@ -396,6 +395,11 @@ background-size: cover;
 
 .memory-card.flip {
   transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);  /* FF3.5+ */
+       -o-transform: rotateY(180deg);  /* Opera 10.5 */
+  -webkit-transform: rotateY(180deg);  /* Saf3.1+, Chrome */
+      -ms-transform: rotateY(180deg);  /* IE9 */
+          transform: rotateY(180deg);
 }
 
 .front-face,
@@ -409,4 +413,9 @@ background-size: cover;
 
 .front-face {
   transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);  /* FF3.5+ */
+       -o-transform: rotateY(180deg);  /* Opera 10.5 */
+  -webkit-transform: rotateY(180deg);  /* Saf3.1+, Chrome */
+      -ms-transform: rotateY(180deg);  /* IE9 */
+          transform: rotateY(180deg);
 }
