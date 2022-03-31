@@ -65,6 +65,18 @@ $(document).ready(function(){
 	$('.big_fuck').attr('src', './img/big_window_3.svg');
 });
 });
+
+$(document).ready(function(){
+	$('.phone_butt_1').click(function(){
+	$('.big_fuck').attr('src', './img/big_window.svg');
+	})
+	$('.phone_butt_2').click(function(){
+	$('.big_fuck').attr('src', './img/big_window_2.svg');
+	})
+	$('.phone_butt_3').click(function(){
+	$('.big_fuck').attr('src', './img/big_window_3.svg');
+});
+});
 // const cards = document.querySelectorAll('.imp');
 // function flipCard() {
 // this.classList.toggle('.flip');
