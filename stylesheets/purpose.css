@@ -1,0 +1,342 @@
+.menu{
+  /* justify-self:end; */
+grid-column: 24/28;
+grid-row: 32;
+border: 2px solid #333;
+background-color: white;
+z-index: 1;
+text-align: center;
+}
+.button{
+text-decoration: none;
+text-decoration-color: black;
+font-family: 'Wermut';
+font-size: 17px;
+top:20%;
+}
+/* Вылетает менюшка */
+#myModal {
+width: 100%;
+ height: 218px;
+border: 2px solid #333;
+background-color: white;
+position: relative;
+grid-column: 9/12;
+grid-row: 16/27;
+display: none;
+opacity: 0;
+z-index: 38;
+  text-align: center;
+
+}
+#myModal #myModal__close {
+width: 100%; height: 21px;
+position: absolute;
+top: 1px;right: 11px;
+cursor: pointer;
+display: block;
+  font-size: 29px;
+
+}
+#myOverlay {
+z-index: 37;
+position: fixed;
+width: 100%; height: 100%;
+top: 0; left: 0;
+cursor :pointer;
+display :none;
+}
+/* кнопки в менюшке */
+#img1 {
+  display: run-in;
+}
+
+#img2 {
+  display: none;
+}
+#img3 {
+  display: none;
+}
+.butt_1{
+   margin-top: 40%;
+   width:100%;
+}
+.butt_2{
+   margin-top: 10%;
+   width:100%;
+}
+.butt_3{
+   margin-top: 10%;
+   width:100%;
+}
+  @keyframes cola {
+    0%   {background-color: #C06161;}
+    6%  {background-color: #5CA191;}
+    14%  {background-color: #F4D175;}
+    21%  {background-color: #F0BDA7;}
+    28% {background-color: #BAC9FF;}
+    35%   {background-color: #A5D1A7;}
+    42%  {background-color: #B696D6;}
+    49%  {background-color: #CD6D6D;}
+    57%  {background-color: #A4AC9D;}
+    64% {background-color: #CEAADF;}
+    71%  {background-color: #EBB4B4;}
+    78%  {background-color: #E5D3A1;}
+    85%  {background-color: #829CAE;}
+    92%  {background-color: #D88E78;}
+    100% {background-color: #D7A784;}
+  }
+.rectengal_case_1{
+  grid-column: 1/8;
+  grid-row: 34;
+  background-color: #C06161;
+  animation: cola 15s infinite linear;
+}
+.rectengal_case_2{
+  grid-column: 1/8;
+  grid-row: 35;
+  background-color: #5CA191;
+  animation: cola 15s 1s infinite linear;
+}
+.rectengal_case_3{
+  grid-column: 1/8;
+  grid-row: 36;
+  background-color: #F4D175;
+  animation: cola 15s 2s infinite linear;
+}
+.rectengal_case_4{
+  grid-column: 1/8;
+  grid-row: 37;
+  background-color: #BAC9FF;
+  animation: cola 15s 3s infinite linear;
+}
+.rectengal_case_5{
+  grid-column: 1/8;
+  grid-row: 38;
+  background-color: #A5D1A7;
+  animation: cola 15s 4s infinite linear;
+}
+.rectengal_case_6{
+  grid-column: 1/8;
+  grid-row: 39;
+  background-color: #B696D6;
+  animation: cola 15s 5s infinite linear;
+}
+.rectengal_case_7{
+  grid-column: 1/8;
+  grid-row: 40;
+  background-color: #CD6D6D;
+  animation: cola 15s 6s infinite linear;
+}
+.rectengal_case_8{
+  grid-column: 1/8;
+  grid-row: 41;
+  background-color: #A4AC9D;
+  animation: cola 15s 7s infinite linear;
+}
+.rectengal_case_9{
+  grid-column: 1/8;
+  grid-row: 42;
+  background-color: #CEAADF;
+  animation: cola 15s 8s infinite linear;
+}
+.rectengal_case_10{
+  grid-column: 1/8;
+  grid-row: 43;
+  background-color: #EBB4B4;
+  animation: cola 15s 9s infinite linear;
+}
+.rectengal_case_11{
+  grid-column: 1/8;
+  grid-row: 44;
+  background-color: #E5D3A1;
+  animation: cola 15s 10s infinite linear;
+}
+.rectengal_case_12{
+  grid-column: 1/8;
+  grid-row: 45;
+  background-color: #829CAE;
+  animation: cola 15s 11s infinite linear;
+}
+.rectengal_case_13{
+  grid-column: 1/8;
+  grid-row: 46;
+  background-color: #D88E78;
+  animation: cola 15s 12s infinite linear;
+}
+.rectengal_case_14{
+  grid-column: 1/8;
+  grid-row: 47;
+  background-color: #D7A784;
+  animation: cola 15s 13s infinite linear;
+}
+.rectengal_case_15{
+  grid-column: 1/8;
+  grid-row: 48;
+  background-color: #BAC9FF;
+  animation: cola 15s 14s infinite linear;
+}
+.rectengal_case_16{
+  grid-column: 1/8;
+  grid-row: 49;
+  background-color: #5CA191;
+  animation: cola 15s 1s infinite linear;
+}
+.rectengal_case_17{
+  grid-column: 1/8;
+  grid-row: 50;
+  background-color: #F4D175;
+  animation: cola 15s 2s infinite linear;
+}
+.rectengal_case_18{
+  grid-column: 1/8;
+  grid-row: 51;
+  background-color: #BAC9FF;
+  animation: cola 15s 3s infinite linear;
+}
+.rectengal_case_19{
+  grid-column: 1/8;
+  grid-row: 52;
+  background-color: #A5D1A7;
+  animation: cola 15s 4s infinite linear;
+}
+.rectengal_case_20{
+  grid-column: 1/8;
+  grid-row: 53;
+  background-color: #B696D6;
+  animation: cola 15s 5s infinite linear;
+}
+.rectengal_case_21{
+  grid-column: 1/8;
+  grid-row: 54;
+  background-color: #CD6D6D;
+  animation: cola 15s 6s infinite linear;
+}
+.rectengal_case_22{
+  grid-column: 1/8;
+  grid-row: 55;
+  background-color: #A4AC9D;
+  animation: cola 15s 7s infinite linear;
+}
+.rectengal_case_23{
+  grid-column: 1/8;
+  grid-row: 56;
+  background-color: #CEAADF;
+  animation: cola 15s 8s infinite linear;
+}
+.rectengal_case_24{
+  grid-column: 1/8;
+  grid-row: 57;
+  background-color: #EBB4B4;
+  animation: cola 15s 9s infinite linear;
+}
+.rectengal_case_25{
+  grid-column: 1/8;
+  grid-row: 58;
+  background-color: #E5D3A1;
+  animation: cola 15s 10s infinite linear;
+}
+.rectengal_case_26{
+  grid-column: 1/8;
+  grid-row: 59;
+  background-color: #829CAE;
+  animation: cola 15s 11s infinite linear;
+}
+.rectengal_case_27{
+  grid-column: 1/8;
+  grid-row: 60;
+  background-color: #D88E78;
+  animation: cola 15s 12s infinite linear;
+}
+.rectengal_case_28{
+  grid-column: 1/8;
+  grid-row: 61;
+  background-color: #D7A784;
+  animation: cola 15s 13s infinite linear;
+}
+.rectengal_case_29{
+  grid-column: 1/8;
+  grid-row: 62;
+  background-color: #BAC9FF;
+  animation: cola 15s 14s infinite linear;
+}
+.rectengal_case_30{
+  grid-column: 1/8;
+  grid-row: 63;
+  background-color: #5CA191;
+  animation: cola 15s 1s infinite linear;
+}
+.box4_5{
+  grid-column: 1/8;
+  grid-row: 10/34;
+  background: url('../img/anim_plush.png');
+  background-size: 2119%;
+  animation: run 2.8s steps(1) infinite;
+}
+@keyframes run {
+  0%{ background-position: 0px top;}
+  5%{ background-position: -163px top;}
+  10%{ background-position: -326px top;}
+  15%{ background-position: -489px top;}
+  20%{ background-position: -652px top;}
+  25%{ background-position: -815px top;}
+  30%{ background-position: -978px top;}
+  35%{ background-position: -1141px top;}
+  40%{ background-position: -1304px top;}
+  45%{ background-position: -1467px top;}
+  50%{ background-position: -1630px top;}
+  55%{ background-position: -1793px top;}
+  60%{ background-position: -1956px top;}
+  65%{ background-position: -2119px top;}
+  70%{ background-position: -2282px top;}
+  75%{ background-position: -2445px top;}
+  80%{ background-position: -2608px top;}
+  85%{ background-position: -2771px top;}
+  90%{ background-position: -2934px top;}
+  95%{ background-position: -3097px top;}
+  100%{ background-position: -3423px top;}
+
+}
+.box4_6{
+  grid-column: 45/61;
+  grid-row: 51/77;
+  background: url('../img/anim_plush_big.png');
+  background-repeat: no-repeat;
+  animation: puck 2.8s steps(1) infinite;
+  background-size: 70%;
+}
+@keyframes puck {
+  0%{ background-position: 0px top;}
+  5%{ background-position: -377px top;}
+  10%{ background-position: -754px top;}
+  15%{ background-position: -1131px top;}
+  20%{ background-position: -1508px top;}
+  25%{ background-position: -1885px top;}
+  30%{ background-position: -2262px top;}
+  35%{ background-position: -2639px top;}
+  40%{ background-position: -3016px top;}
+  45%{ background-position: -3393px top;}
+  50%{ background-position: -3770px top;}
+  55%{ background-position: -4147px top;}
+  60%{ background-position: -4524px top;}
+  65%{ background-position: -4901px top;}
+  70%{ background-position: -5278px top;}
+  75%{ background-position: -5655px top;}
+  80%{ background-position: -6032px top;}
+  85%{ background-position: -6409px top;}
+  90%{ background-position: -6786px top;}
+  95%{ background-position: -7163px top;}
+  100%{ background-position: -7540px top;}
+
+}
+.box4_3 {
+  grid-column: 45/60;
+  grid-row: 10/51;
+}
+.inside4_3{
+  width:50%;
+  position: relative;
+  animation: moveX 3s linear 0s infinite alternate, moveY 3.5s linear 0s infinite alternate;
+}
+@keyframes moveX {from {left: 0;} to {left: 50%;}}
+@keyframes moveY {from {top: 0;} to {top: 50%;}}
