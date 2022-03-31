@@ -76,6 +76,13 @@ $(document).ready(function(){
 	$('.big_fuck').attr('src', './img/big_window_3.svg');
 });
 });
+// 
+// $(document).ready(function(){
+// 	$('.box1_12').click(function(){
+// 	$('.box6_1').attr('src', './img/grow2.svg');
+// 	})
+// });
+
 // const cards = document.querySelectorAll('.imp');
 // function flipCard() {
 // this.classList.toggle('.flip');

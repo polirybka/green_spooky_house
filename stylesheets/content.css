@@ -1,4 +1,11 @@
 
+.wrapper{
+  display: grid;
+  grid-template-columns:repeat(60, 1fr);
+  grid-auto-rows:minmax(24px, auto);
+  grid-auto-columns:minmax(24px, auto);
+}
+
 .fuck{
   width:100%;
 z-index: 3;
@@ -103,8 +110,9 @@ z-index:2;
 .box2_1{
   /* justify-self:end; */
   grid-column: 7/8;
-      grid-row: 10/33;
+      grid-row: 10/34;
       border-right: 2px solid #333;
+      z-index: 5;
   }
   .box2_3{
     /* justify-self:end; */
@@ -127,7 +135,7 @@ border-right: 2px solid #333;
 .box2_6{
   /* justify-self:end; */
 grid-column: 38;
-grid-row: 13/31;
+grid-row: 13/30;
 border-left: 2px solid #333;
 }
 .box2_7{
@@ -201,6 +209,7 @@ border-left: 2px solid #333;
   grid-column: 45;
   grid-row: 33/77;
   border-left: 2px solid #333;
+  z-index: 5;
   }
 .box3_4{
   /* justify-self:end; */
@@ -289,6 +298,7 @@ border-top: 2px solid #333;
 grid-column: 44/61;
 grid-row: 51;
 border-bottom: 2px solid #333;
+z-index: 5;
 }
 .box3_18{
 grid-column: 40/42;
