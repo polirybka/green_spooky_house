@@ -466,7 +466,7 @@ display :none;
 }
 .box6_1{
   grid-column: 1/8;
-  grid-row: 10/34;
+  grid-row: 10/36;
   overflow: hidden;
   z-index: 4;
 }
