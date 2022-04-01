@@ -296,3 +296,14 @@
   }
 
 }
+@media only screen and  (min-device-width: 1920px) and (max-device-width: 2500px){
+    .box6_4,.box6_3,.phone4_3,.phone4_4,.phone4_5,.phone4_6,.phone4_7,.phone5_1,.phone_butt_1,
+  .phone_butt_2,.phone_butt_3,
+  .rectengal_phone_1,.rectengal_phone_2,.rectengal_phone_3,.rectengal_phone_4,
+  .rectengal_phone_5,.rectengal_phone_6,.rectengal_phone_7,.rectengal_phone_8,
+  .rectengal_phone_9,.rectengal_phone_10,.rectengal_phone_11,.rectengal_phone_12,
+  .rectengal_phone_13,.rectengal_phone_14,.rectengal_phone_15,.rectengal_phone_16,
+  .rectengal_phone_17,.rectengal_phone_18{
+    display:none;
+  }
+}
